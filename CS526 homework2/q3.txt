@@ -1,0 +1,4 @@
+Final Output:
+doIt(1) = 1
+doIt(3) = 2
+doIt(6) = 4

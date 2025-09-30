@@ -1,0 +1,7 @@
+Linked list: 12,3,5,2
+Recursive function prints in reverse order.
+Final Output: 
+2
+5
+3
+12

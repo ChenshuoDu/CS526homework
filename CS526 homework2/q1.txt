@@ -1,0 +1,6 @@
+The advantage of the tail pointer is that you can directly access the last node of the linked list without having to traverse the entire linked list from the beginning.
+A tail pointer allows direct access to the last node in the list.
+Without it, inserting at the end requires O(n) traversal.
+With it, insertion at the end is O(1).
+Especially useful in queues or when frequent insertions at the end are required.
+Conclusion: Improves efficiency by enabling constant-time insertion at the end of the list.
