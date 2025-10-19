@@ -1,0 +1,16 @@
+Preorder (root, left, right): A B E H F I C D G(First visit A ​​(the root), then the entire subtree of B (E-H-F-I), then visit C, and finally D-G.)
+Breadth-first: A B C D E F G H I(Visit layer by layer. First layer A - Second layer B, C, D - Third layer E, F, G - Fourth layer H, I.)
+Postorder (left, right, root): H E I F B C G D A(First visit all child nodes (H, E, I, F, B, C, G, D) and finally visit the root node A.)
+In-order traversal sequence: G, D, B, E, A, C, H, F, I
+(Starting from the root node A, first walk left to B.
+From B, walk left to D.
+From D, walk left to G. G has no children - Visit G.
+Return to D - Visit D.
+Return to B, complete the left subtree - Visit B.
+Then visit B's right subtree E - Visit E.
+Return to the root node A - Visit A.
+Then visit the right subtree C.
+C has no child to its left - Go right to F.
+F has H to its left - Visit H.
+Return to F - Visit F.
+Go right to I - Visit I.)
